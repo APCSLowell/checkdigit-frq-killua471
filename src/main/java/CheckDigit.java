@@ -27,7 +27,7 @@ public class CheckDigit
    public static boolean isValid(int numWithCheckDigit)    
    {      
      /* to be implemented in part (b) */    
-     return getDigit(numWithCheckDigit,get(numberOfDigits(numWithCheckDigit)))==getCheck(numWithCheckDigit/10);
+     return getDigit(numWithCheckDigit,getNumberOfDigits(numWithCheckDigit)))==getCheck(numWithCheckDigit/10);
    }    
    
    /** Returns the number of digits in num. */    
